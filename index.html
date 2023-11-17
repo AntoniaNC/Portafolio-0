@@ -3,10 +3,13 @@
   <head>
     <link rel="stylesheet" href="globals.css" />
     <link rel="stylesheet" href="style.css" />
-    head>
     <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
   </head>
   <body>
+      <div class="fondo-rosado"></div>
+    <a href="About me/index.html"></a>
+    <div class="gran-contenedor"></div>
     <div class="desktop">
       <div class="overlap-wrapper">
         <div class="overlap">
@@ -19,21 +22,54 @@
           <img class="img" src="img/line-2.png" />
           <img class="line-2" src="img/line-3.png" />
           <img class="line-3" src="img/line-4.png" />
-          <img class="vector" src="img/vector-7.png" />
-          <img class="vector-2" src="img/vector-6.png" />
-          <img class="vector-3" src="img/vector-5.png" />
+          <div class="contenedor-2"></div>
+          <a href="Tarea 2/index.html"> <img onmousedown="HitHat.play()"class="vector" src="img/vector-7.png" />
+          <div class="contenedor-6"></div>
+          <a href="Tarea 6/index.html"> <img onmousedown="crash.play()"class="vector-2" src="img/vector-6.png" />
+          <div class="contenedor-7"></div>
+          <a href="Prototipos/index.html"><img onmousedown="Ride.play()"class="vector-3" src="img/vector-5.png" />
+          <div class="desktop">
           <div class="group">
             <div class="overlap-group">
-              <img class="line-4" src="img/line-10.png" />
-              <div class="ellipse"></div>
+            </div>
+              <div class="contenedor-8"></div>
+          <a href="About me/index.html"> <img onmousedown="Bombo.play()" class="nueva-imagen" src="img/Vector10.png" alt="Descripción de la imagen" />
+ 
+            <div class="ellipse"></div>
             </div>
           </div>
-          <img class="vector-4" src="img/vector-3.svg" />
-          <img class="vector-5" src="img/vector-2.png" />
-          <img class="vector-6" src="img/vector-1.png" />
-          <img class="vector-7" src="img/vector.png" />
+              
+
+  <div class="contenedor-1"></div>
+          <a href="Tarea 1/index.html"><img onmousedown="caja.play()" class="vector-4" src="img/vector-3.svg" id="imagen1"/> 
+            <div class="contenedor-3"></div>
+            <a href="Tarea3/index.html"><img onmousedown="tom1.play()" class="vector-5" src="img/vector-2.png" id="imagen3" />
+              <div class="contenedor-4"></div>
+              <a href="Tarea 4/index.html"><img onmousedown="tom2.play()" class="vector-6" src="img/vector-1.png" />
+              <div class="contenedor-5"></div>
+              <a href="Tarea 5/index.html"> <img onmousedown="tombase.play()"class="vector-7" src="img/vector.png" />
         </div>
       </div>
     </div>
+    <script type="text/javascript"></script> 
+    <script>
+      var caja = new Audio();
+      caja.src = "Assets/caja.mp3"
+      var HitHat = new Audio();
+      HitHat.src = "Assets/HitHat.mp3"
+      var tom1 = new Audio();
+      tom1.src = "Assets/tom1.mp3"
+      var tom2 = new Audio();
+      tom2.src = "Assets/tom2.mp3"
+      var tombase = new Audio();
+      tombase.src = "Assets/tombase.mp3"
+      var crash = new Audio();
+      crash.src = "Assets/crash.mp3"
+      var Ride = new Audio();
+      Ride.src = "Assets/Ride.mp3"
+      var Bombo = new Audio();
+      Bombo.src = "Assets/Bombo.mp3"
+    </script>
+  
   </body>
 </html>

@@ -1,5 +1,5 @@
 .desktop {
-  background-color: #ffffff;
+  background-color: #e76e6e;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -7,10 +7,17 @@
 }
 
 .desktop .overlap-wrapper {
-  background-color: #ffffff;
+  background-color: #e76e6e;
   border: 0px none;
-  width: 1440px;
+  width: 1600px;
   height: 1024px;
+}
+
+
+/* Estilos para el fondo rosado */
+body {
+  margin: 0;
+  padding: 0;
 }
 
 .desktop .overlap {
@@ -19,7 +26,6 @@
   position: relative;
   background-size: 100% 100%;
 }
-
 .desktop .line {
   position: absolute;
   width: 38px;
@@ -84,7 +90,7 @@
   left: 480px;
 }
 
-.desktop .overlap-group {
+.desktop .overlap-grp {
   width: 506px;
   height: 503px;
   left: -4px;
@@ -144,6 +150,33 @@
   top: 553px;
   left: 993px;
 }
+
+.vector-icon {
+  position: relative;
+  width: 0px;
+ height: 95.5px;
+ flex-shrink: 0;
+ stroke-width: 3px;
+stroke: #000;
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  }
+
+
+
+  .nueva-imagen {
+    width: 506px;
+    height: 503px;
+    left: -4px;
+    position: relative;
+    background-size: 100% 100%;
+    /* Otros estilos si es necesario */
+
+  }
+  
+ 
+
+
+
 /* Estilos base para las imágenes */
 img {
   width: 200px; /* Ajusta el tamaño base según tus necesidades */

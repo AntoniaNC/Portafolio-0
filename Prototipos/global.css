@@ -1,0 +1,15 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+
+:root {
+  /* fonts */
+  --font-sarabun: Sarabun;
+
+  /* font sizes */
+  --font-size-6xl: 25px;
+
+  /* Colors */
+  --color-mistyrose: #f4dbdb;
+}
