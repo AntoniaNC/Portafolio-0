@@ -1,14 +1,17 @@
 .e02b36a6-20f4-49f7-b826-7029bc-icon {
   position: absolute;
-  top: 159px;
-  left: 789px;
+  top: 147px;
+  left: 793px;
   border-radius: 29px;
   width: 521px;
-  height: 711px;
+  height: 618px;
   object-fit: cover;
 }
+.acerca-de,
+.github,
 .welcome-to-my,
-.welcome-to-my1 {
+.welcome-to-my1,
+.wiki {
   position: absolute;
   top: -856px;
   left: 446px;
@@ -17,9 +20,43 @@
   height: 60px;
   text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
 }
-.welcome-to-my1 {
+.acerca-de,
+.github,
+.welcome-to-my1,
+.wiki {
   top: 159px;
   left: 132px;
+}
+
+/* Estilos para el enlace con clase "wiki-enlace" */
+a.github{
+  /* Estilos para el enlace */
+  text-decoration: none; /* Elimina el subrayado predeterminado */
+  color: #FFC0CB; /* Color del enlace */
+  /* Otros estilos si es necesario */
+}
+
+/* Estilos para el div con clase "wiki" */
+div.wiki {
+  /* Estilos para el div */
+  color: #FFC0CB; /* Color del texto */
+  /* Otros estilos si es necesario */
+}
+
+.acerca-de,
+.github,
+.wiki {
+  top: 825px;
+  left: 893px;
+  height: 56px;
+}
+.acerca-de,
+.wiki {
+  left: 1122px;
+}
+.acerca-de {
+  top: 774px;
+  left: 955px;
 }
 .hola-me-llamo {
   margin: 0;
